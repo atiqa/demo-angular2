@@ -1,0 +1,5 @@
+<row *ngFor="let columns of rowList">
+	<column  *ngFor="let column of columns" ngClass="{{column.cl}} {{column.bc}}" sm="{{column.sm}}" (click)="move(column)"  >
+		<img  [src]="column.img" *ngIf="column.img" />
+	</column>
+</row>
