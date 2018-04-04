@@ -3,6 +3,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule }  from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { BootstrapGridModule } from 'ng2-bootstrap-grid';
+import { ColSmDirective, ColMdDirective, ColLgDirective } from './columns.directive';
 
 import { AppComponent }         from './app.component';
 import { DashboardComponent }   from './dashboard/dashboard.component';
